@@ -26,7 +26,9 @@ const About = () => {
                             <div className="relative">
                                 <div className="absolute -inset-4 bg-gradient-to-r from-primary-400 to-primary-600 rounded-2xl opacity-20 blur-xl animate-pulse-slow"></div>
                                 <div className="relative w-64 h-64 rounded-2xl overflow-hidden border-4 border-primary-200 shadow-xl">
-                                    <img src={photo} alt="Naoures Kraiem" className="w-full h-full object-cover"
+                                    <img src={photo}
+                                        alt="Naoures Kraiem"
+                                        className="w-full h-full object-cover"
                                         onError={
                                             (e) => {
                                                 e.target.style.display = 'none'
@@ -119,26 +121,28 @@ const About = () => {
                                     Frontend Engineer with
                                     <span className="font-bold text-primary-600">5 years of experience</span>
                                     building scalable, 
-                                                        high-performance web applications using modern technologies.
+                                                                                            high-performance web applications using modern technologies.
                                 </p>
                             </div>
 
                             <p className="text-lg text-gray-700 leading-relaxed">
                                 Expert in
-                                <span className="font-semibold text-primary-600"> React.js, Next.js, TypeScript,React Query and Redux</span>, with a strong focus 
-                                                      on clean architecture and maintainable code.
+                                <span className="font-semibold text-primary-600">
+                                    React.js, Next.js, TypeScript,React Query and Redux</span>, with a strong focus 
+                                                                                          on clean architecture and maintainable code.
                             </p>
 
                             <p className="text-lg text-gray-700 leading-relaxed">
                                 Delivered production-ready solutions across edtech, medical, beauty, and a large-scale football social media platform. 
-                                                  Contributed to an e-learning platform serving over
+                                                                                  Contributed to an e-learning platform serving over
                                 <span className="font-bold text-primary-600">400,000 users</span>, 
-                                                      developing features from scratch to scale.
+                                                                                          developing features from scratch to scale.
                             </p>
 
                             <p className="text-lg text-gray-700 leading-relaxed">
                                 Passionate about
-                                <span className="font-semibold"> pixel-perfect UI/UX</span>, real-time features, performance optimization, and agile collaboration.
+                                <span className="font-semibold">
+                                    pixel-perfect UI/UX</span>, real-time features, performance optimization, and agile collaboration.
                             </p>
 
                             {/* Stats */}

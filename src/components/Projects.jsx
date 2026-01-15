@@ -1,4 +1,4 @@
-import {HiExternalLink} from 'react-icons/hi'
+import { HiExternalLink } from 'react-icons/hi'
 
 const Projects = () => {
     const projects = [

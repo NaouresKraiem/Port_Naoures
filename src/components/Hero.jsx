@@ -74,8 +74,9 @@ const Hero = () => {
                                 {animationDelay: '0.6s'}
                         }>
                             Building scalable, high-performance web applications with modern technologies.
-                                          Passionate about
-                            <span className="font-semibold text-primary-600"> pixel-perfect UI/UX</span>
+                                                                      Passionate about
+                            <span className="font-semibold text-primary-600">
+                                pixel-perfect UI/UX</span>
                             and{' '}
                             <span className="font-semibold text-primary-600">clean architecture</span>.
                         </p>
@@ -133,7 +134,9 @@ const Hero = () => {
                                 {animationDelay: '0.5s'}
                         }>
                             <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 opacity-20"></div>
-                            <img src={photo} alt="Naoures Kraiem" className="w-full h-full object-cover"
+                            <img src={photo}
+                                alt="Naoures Kraiem"
+                                className="w-full h-full object-cover"
                                 onError={
                                     (e) => { // Fallback to a gradient placeholder if image doesn't exist
                                         e.target.style.display = 'none'
