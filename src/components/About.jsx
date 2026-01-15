@@ -115,7 +115,7 @@ const About = () => {
                         <div className="space-y-6">
                             <div>
                                 <div className="inline-block px-4 py-2 bg-primary-600 text-white rounded-full text-sm font-semibold mb-4">
-                                    5+ Years Experience
+                                    5 Years Experience
                                 </div>
                                 <p className="text-lg text-gray-700 leading-relaxed">
                                     Frontend Engineer with
