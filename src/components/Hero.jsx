@@ -76,7 +76,7 @@ const Hero = () => {
                             Building scalable, high-performance web applications with modern technologies.
                                                                       Passionate about
                             <span className="font-semibold text-primary-600">
-                                pixel-perfect UI/UX</span>
+                            {' '} pixel-perfect UI/UX {' '}</span>
                             and{' '}
                             <span className="font-semibold text-primary-600">clean architecture</span>.
                         </p>

@@ -8,6 +8,8 @@ import ranktipImage from '../assets/projects/ranktip.png'
 import tresovistaImage from '../assets/projects/tresovistas.png'
 import leavemetryImage from '../assets/projects/leavereq.png'
 import takiacademyImage from '../assets/projects/takiacademy.png'
+import rentcarImage from '../assets/projects/rent.jpeg'
+
 
 const Projects = () => {
     const projects = [
@@ -86,7 +88,7 @@ const Projects = () => {
             title: 'RentCar | Car Rental Platform',
             role: 'Frontend Engineer',
             period: '2022',
-            image: null, // Add image path here, e.g., import rentcarImage from '../assets/projects/rentcar.jpg'
+            image: rentcarImage, // Add image path here, e.g., import rentcarImage from '../assets/projects/rentcar.jpg'
             description: 'Fully responsive enterprise SaaS solution for vehicle rental agencies managing complete fleet operations. Optimized webpack configuration reducing bundle size by 45% and improving load times by 60%. Built comprehensive dashboard with advanced calendar integration, dynamic permission system, multi-agency management, billing, invoice management, and contract handling - eliminating need for 5+ separate tools and reducing operational costs by 40%.',
             techStack: [
                 'React', 'TypeScript', 'Webpack'
